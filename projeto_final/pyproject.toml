@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "projeto-final"
+version = "0.1.0"
+description = ""
+authors = ["André Carvalho <andrvc782@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+snorkel = "^0.10.0"
+pyarrow = "^16.1.0"
+fastparquet = "^2024.5.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
